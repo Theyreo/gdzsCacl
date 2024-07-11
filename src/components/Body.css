@@ -1,0 +1,128 @@
+.Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    background-color: rgba(3, 14, 15, 0.2);
+}
+
+.Body-Calc {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 1300px;
+    max-height: 1000px;
+    margin:  30px;
+    border: 1px solid black;
+}
+.Body-Calc-Conteiner {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.Body h1 {
+    text-align: center;
+}
+
+.Body-Structure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    height: 50px;
+    padding: 10px;
+}
+.Body-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.Body-Sizod-settings {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+}
+
+.Body-start-pressure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Body-inputs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.Body-type-Sizod {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.Body-title-table {
+    font-size: larger;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Body-Calc-Conteiner div span {
+    margin: 10px;
+}
+
+[name="cylinder_volume"] {
+    margin-top: 25px;
+}
+
+.Body-title-table {
+    margin-bottom: 20px;
+    font-size:  30px;
+}
+
+.Body-result {
+    width: 980px;
+    min-width: 300px;
+    max-width: 1300px;
+    max-height: 1000px;
+    margin:  30px;
+    border: 1px solid black;
+}
+
+.Body-result h3 {
+    text-align: center;
+}
+
+.resultRow {
+    display: grid;
+    grid-template-columns: auto auto; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+span input {
+    width: 170px;
+    border-radius: 2%;
+}
+
+.Body-calc-button-visible {
+    border-radius: 2%;
+    font-size: 20px;
+}
+
+.Body-calc-button-hidden {
+    display: none;
+}
